@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Infra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Application\Application.csproj", "{3905372A-6B69-4F26-9C6F-C5C09C4C49E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Api", "src\GymManagement.Api\GymManagement.Api.csproj", "{D4C352E5-34BF-4634-B22D-E571C669DAE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3905372A-6B69-4F26-9C6F-C5C09C4C49E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3905372A-6B69-4F26-9C6F-C5C09C4C49E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3905372A-6B69-4F26-9C6F-C5C09C4C49E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4C352E5-34BF-4634-B22D-E571C669DAE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C352E5-34BF-4634-B22D-E571C669DAE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4C352E5-34BF-4634-B22D-E571C669DAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4C352E5-34BF-4634-B22D-E571C669DAE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +55,7 @@ Global
 		{0ED2161F-EC49-438F-9466-663156F0E4A5} = {D6A88002-2308-4C45-A27D-5D0BCC49DFB7}
 		{6505E37F-2EE7-4906-8AD8-CF294E4FACE7} = {D6A88002-2308-4C45-A27D-5D0BCC49DFB7}
 		{3905372A-6B69-4F26-9C6F-C5C09C4C49E4} = {D6A88002-2308-4C45-A27D-5D0BCC49DFB7}
+		{D4C352E5-34BF-4634-B22D-E571C669DAE4} = {D6A88002-2308-4C45-A27D-5D0BCC49DFB7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BF5954D1-B2D2-4281-BA6A-4383C2592EBE}
